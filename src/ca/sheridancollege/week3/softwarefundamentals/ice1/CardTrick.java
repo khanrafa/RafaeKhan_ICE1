@@ -2,6 +2,7 @@
  * Rafae Khan 
  * ICE 1 Exercise
  * Student Number: 991603862
+ *
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
@@ -20,7 +21,13 @@ public class CardTrick {
         Scanner input = new Scanner(System.in);
         Card[] magicHand = new Card[7];
         
+        //lucky card add via Github
         
+        Card luckyCard = new Card();
+        
+        //lucky card values setters
+        luckyCard.setValue(7);
+        luckyCard.setSuit("Hearts");
 
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
